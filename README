@@ -1,0 +1,14 @@
+This is a small proof-of-concept on how to build a multiplayer game server with Gosu;
+there is just one screen for all the players, when a client connects a new player
+is automatically added on the screen, when it disconnect the player is removed. 
+
+This structure is useful when you need to create old-school multiplayer games 
+that need to deal with more than two players and with more peripherals (eg: joypads, etc)
+
+To try this out you need to first run the server (ruby init.rb) and then 
+run as many clients as you want (ruby client/game_controller #playernum).
+
+(use numbers insted of #playernum eg 0,1,2,3... :)
+
+Sandro Paganotti 
+ 
